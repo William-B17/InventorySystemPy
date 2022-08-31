@@ -1,0 +1,75 @@
+{
+    "gamelaws": {
+        "shops": {
+            "menu": {
+                "prices": {
+                    "Water": 10,
+                    "Bread": 15,
+                    "Pc": 20
+                }
+            },
+            "drugdealer": {
+                "prices": {
+                    "Cocaine": 100
+                }
+            }
+        }
+    },
+    "items": {
+        "Water": {
+            "name": "Water",
+            "weight": 4.5
+        },
+        "Pc": {
+            "name": "Pc",
+            "weight": 24.0
+        },
+        "Bread": {
+            "name": "Bread",
+            "weight": 3.0
+        },
+        "Money": {
+            "name": "Money",
+            "weight": 0.1
+        },
+        "Cocaine": {
+            "name": "Cocaine",
+            "weight": 1.0
+        }
+    },
+    "settings": {
+        "max-weight": 500
+    },
+    "bags": {
+        "small-bag": {
+            "max-weight": 100
+        },
+        "medium-bag": {
+            "max-weight": 300
+        },
+        "big-bag": {
+            "max-weight": 750
+        },
+        "mega-suitcase": {
+            "max-weight": 1750
+        }
+    },
+    "userdata": {
+        "1": {
+            "bag": "small-bag",
+            "inventorys": {
+                "Water": 2,
+                "Bread": 4,
+                "Money": 10,
+                "Pc": 12
+            }
+        },
+        "2": {
+            "bag": "small-bag",
+            "inventorys": {
+                "Pc": 1,
+                "Money": 5
+            }
+        }
+    }
+}
